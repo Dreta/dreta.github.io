@@ -124,4 +124,4 @@ tailwind.config.js
 webpack.config.js
 yarn.lock
 assets/styles.pcss
-assets/images/art0.png
+assets/images/*.png
