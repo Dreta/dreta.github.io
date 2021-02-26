@@ -13,9 +13,8 @@
     <meta content="This site is under construction."
           name="og:description">
     <meta content="Dreta" name="author">
-    <!--<meta content="Dreta" name="keywords">-->
-    <!--<meta content="Dreta" property="og:keywords">-->
-    <meta name="robots" content="noindex">
+    <meta content="Dreta,Developer" name="keywords">
+    <meta content="Dreta,Developer" property="og:keywords">
     <meta content="@Dretacbe" property="twitter:site">
     <meta content="@Dretacbe" property="twitter:site:id">
     <meta content="@Dretacbe" property="twitter:creator">
@@ -24,8 +23,276 @@
     <meta content="tCRxfiWVbyTWC_04bLy262SutpOSq-rNNJD48rJySKw" name="google-site-verification">
     <link href="dist/main.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<p>This site is under construction.</p>
+<body class="overflow-hidden">
+<div id="dark-mode-container" class="h-screen">
+    <div class="lg:flex h-screen dark:bg-light-black">
+        <div class="lg:w-1/6 lg:h-full p-5">
+            <div class="lg:flex lg:flex-col lg:justify-center lg:h-screen lg:w-full">
+                <h1 class="text-4xl dark:text-white mb-3 font-extralight" tabindex="0">Dreta</h1>
+                <noscript><p class="text-red-500 mb-3" tabindex="0">It's already 2021, and a lot of websites (including
+                    this one)
+                    won't work without JavaScript.</p></noscript>
+                <p class="dark:text-white mb-3" tabindex="0">Your weird dev neighbor.</p>
+
+                <div class="flex justify-start items-start mb-3">
+                    <div class="bg-white dark:bg-light-black border-2 rounded border-gray-400 w-6 h-6 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-blue-500">
+                        <input type="checkbox" class="opacity-0 absolute" id="dark-mode">
+                        <svg class="fill-current hidden w-4 h-4 text-about pointer-events-none" viewBox="0 0 20 20">
+                            <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                        </svg>
+                    </div>
+                    <label for="dark-mode" class="select-none dark:text-white">Dark Mode</label>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-5/6 lg:h-full">
+            <div class="lg:flex">
+                <!-- About Rants Social -->
+                <div class="lg:h-screen section current bg-about dark:bg-dark-about">
+                    <h2 tabindex="0" class="text-3xl dark:text-white font-extralight p-5 lg:p-0
+                           lg:transform-gpu lg:rotate-90 lg:origin-top-left lg:text-center v-text-transform">
+                        About</h2>
+
+                    <div class="p-10 lg:p-40 content">
+                        <h3 class="text-4xl dark:text-white font-extralight mb-3" tabindex="0">
+                            Hi,<br />
+                            <span class="text-3xl">I'm Dreta</span>,<br />
+                            <span class="text-2xl">a developer</span>.
+                        </h3>
+
+                        <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                            I consider myself as ignorant and sophomoric.
+                        </p>
+
+                        <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                            I have quite a few years of experience doing personal
+                            projects out of interest that never really went anywhere.
+                        </p>
+
+                        <div class="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-x-1">
+                            <div style="grid-column: 1" class="gap-x-5">
+                                <div class="w-full md:h-80 md:w-64 bg-white dark:bg-light-black shadow-lg rounded-lg mb-5 p-5">
+                                    <h4 class="text-3xl dark:text-white font-extralight mb-3" tabindex="0">JDA
+                                        Commands</h4>
+                                    <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                                        I can't find a simple library that can handle
+                                        listening to commands and parsing the arguments
+                                        in Discord, so I made one.
+                                    </p>
+                                    <a href="https://github.com/Dreta/jda-commands" tabindex="0"
+                                       title="Dreta/jda-commands: Commands in Java Discord API. It's that simple."
+                                       class="bg-white dark:bg-gray-700 dark:text-white shadow-lg focus:shadow-md rounded-lg p-2">
+                                        Source
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                             stroke="currentColor"
+                                             class="inline-block text-light-black dark:text-white transform-gpu rotate-90 h-4 mb-0.5 ml-0.5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div style="grid-column: 2" class="gap-x-5">
+                                <div class="w-full md:h-80 md:w-64 bg-white dark:bg-light-black shadow-lg rounded-lg mb-5 p-5">
+                                    <h4 class="text-3xl dark:text-white font-extralight mb-3" tabindex="0">Ticket
+                                        Bot</h4>
+                                    <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                                        I was pretty bored as I was staying at home during
+                                        the pandemic lockdown, so I started this simple Discord
+                                        bot that allows you to manage tickets in your Discord
+                                        server.
+                                    </p>
+                                    <a href="https://github.com/Dreta/ticketbot" tabindex="0"
+                                       title="Dreta/ticketbot: Ticket Bot allows you to manage and track issues, commissions etc. in your Discord server easily."
+                                       class="bg-white dark:bg-gray-700 dark:text-white shadow-lg focus:shadow-md rounded-lg p-2">
+                                        Source
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                             stroke="currentColor"
+                                             class="inline-block text-light-black dark:text-white transform-gpu rotate-90 h-4 mb-0.5 ml-0.5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div style="grid-column: 3" class="gap-x-5">
+                                <div class="w-full md:h-80 md:w-64 bg-white dark:bg-light-black shadow-lg rounded-lg mb-5 p-5">
+                                    <h4 class="text-3xl dark:text-white font-extralight mb-3" tabindex="0">Item
+                                        Editor</h4>
+                                    <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                                        Minecraft's NBT system always confuses me. So
+                                        during the lockdown, I made this simple plugin
+                                        that allows you to edit Minecraft items in a slightly
+                                        easier way.
+                                    </p>
+                                    <a href="https://github.com/Dreta/item-editor" tabindex="0"
+                                       title="Dreta/item-editor: Modify items with ease in Minecraft servers."
+                                       class="bg-white dark:bg-gray-700 dark:text-white shadow-lg focus:shadow-md rounded-lg p-2">
+                                        Source
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                             stroke="currentColor"
+                                             class="inline-block text-light-black dark:text-white transform-gpu rotate-90 h-4 mb-0.5 ml-0.5">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:h-screen section bg-rants dark:bg-dark-rants">
+                    <h2 tabindex="0" class="text-3xl dark:text-white font-extralight p-5 lg:p-0
+                           lg:transform-gpu lg:rotate-90 lg:origin-top-left lg:text-center v-text-transform">
+                        Rants</h2>
+
+                    <div class="p-10 lg:px-40 lg:py-24 content">
+                        <h3 class="text-4xl dark:text-white font-extralight mb-3" tabindex="0">
+                            Sometimes I hate myself,<br />
+                            <span class="text-3xl">so here are my stupid rants</span>.
+                        </h3>
+
+                        <div class="flex p-5 rounded-lg bg-white dark:bg-light-black shadow-lg mb-5"
+                             style="width: 48rem">
+                            <div class="mr-3 w-16 h-16">
+                                <img tabindex="0" src="assets/avatar.webp" width="128" height="128" class="rounded-full"
+                                     alt="Dreta's avatar with a man wearing a white hoody smiling">
+                            </div>
+                            <div class="flex-col">
+                                <p class="dark:text-white text-xl" tabindex="0">Dreta</p>
+                                <p class="dark:text-white" tabindex="0">
+                                    i spent an hour debugging an issue where i thought webpack couldn't
+                                    find the template that i was about to use
+                                </p>
+                                <p class="dark:text-white" tabindex="0">
+                                    turns out i never created that template in the first place
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex p-5 rounded-lg bg-white dark:bg-light-black shadow-lg mb-5"
+                             style="width: 48rem">
+                            <div class="mr-3 w-16 h-16">
+                                <img tabindex="0" src="assets/avatar.webp" width="128" height="128" class="rounded-full"
+                                     alt="Dreta's avatar with a man wearing a white hoody smiling">
+                            </div>
+                            <div class="flex-col">
+                                <p class="dark:text-white text-xl" tabindex="0">Dreta</p>
+                                <p class="dark:text-white" tabindex="0">
+                                    i just broke production
+                                </p>
+                                <p class="dark:text-white" tabindex="0">
+                                    i tried to create a backup however i clicked the "restore" button. turns out
+                                    there are no warning messages in place.
+                                </p>
+                                <p class="dark:text-white" tabindex="0">
+                                    now everything's <span aria-label="fucked">f**ked</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex p-5 rounded-lg bg-white dark:bg-light-black shadow-lg mb-5"
+                             style="width: 48rem">
+                            <div class="mr-3 w-16 h-16">
+                                <img tabindex="0" src="assets/avatar.webp" width="128" height="128" class="rounded-full"
+                                     alt="Dreta's avatar with a man wearing a white hoody smiling">
+                            </div>
+                            <div class="flex-col">
+                                <p class="dark:text-white text-xl" tabindex="0">Dreta</p>
+                                <p class="dark:text-white mb-3" tabindex="0">
+                                    did idea just <span aria-label="fuck">f**k</span> my project?
+                                </p>
+                                <img tabindex="0" src="assets/rt2.webp" width="516" height="251" class="rounded-lg w-64"
+                                     alt="An IntelliJ IDEA project open with all the imports failing even though they should work">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:h-screen section bg-contact dark:bg-dark-contact">
+                    <h2 tabindex="0" class="text-3xl dark:text-white font-extralight p-5 lg:p-0
+                           lg:transform-gpu lg:rotate-90 lg:origin-top-left lg:text-center v-text-transform">
+                        Contact</h2>
+
+                    <div class="p-10 lg:p-48 content">
+                        <h3 class="text-4xl dark:text-white font-extralight mb-3" tabindex="0">
+                            So I heard you wanna talk to me?<br />
+                            <span class="text-3xl">Alright!</span>
+                        </h3>
+
+                        <div class="mb-3">
+                            <p class="dark:text-white font-extralight mb-3 text-xl" tabindex="0">
+                                Discord
+                            </p>
+                            <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                                Discord is the fastest way to talk to me.
+                            </p>
+                            <p class="dark:text-white font-extralight" tabindex="0">
+                                You can add <span
+                                    class="font-bold">Dreta#<span>6</span><span>6</span><span>6</span><span>5</span></span>.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="dark:text-white font-extralight mb-3 text-xl" tabindex="0">
+                                Email
+                            </p>
+                            <p class="dark:text-white font-extralight mb-3" tabindex="0">
+                                You can email me if you prefer.
+                            </p>
+                            <p class="dark:text-white font-extralight" tabindex="0">
+                                Email me at <span
+                                    class="font-bold">hello (at) dreta.dev</span>.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="dark:text-white font-extralight mb-3 text-xl" tabindex="0">
+                                Social Media
+                            </p>
+                            <div class="flex">
+                                <p class="mr-3">
+                                    <a tabindex="0" href="https://twitter.com/Dretacbe" title="Dreta's Twitter">
+                                        <img width="32" height="32" src="assets/twitter.svg" alt="Twitter logo" class="h-8 w-8">
+                                    </a>
+                                </p>
+                                <p class="mr-3">
+                                    <a tabindex="0" href="https://reddit.com/u/Dretacbe" title="Dreta's Reddit">
+                                        <img width="32" height="32" src="assets/reddit.svg" alt="Reddit logo"
+                                             class="h-8 w-8">
+                                    </a>
+                                </p>
+                                <p>
+                                    <a tabindex="0" href="https://github.com/Dreta" title="Dreta's GitHub">
+                                        <img width="32" height="32" src="assets/github.svg" alt="GitHub logo" class="h-8 w-8">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="dark:text-white font-extralight mb-3 text-xl" tabindex="0">
+                                Buy me a coffee!
+                            </p>
+                            <p class="mb-3 dark:text-white underline focus:text-gray-700 dark:focus:text-gray-300 transition-colors">
+                                <a tabindex="0" href="https://patreon.com/Dreta" title="Dreta's Patreon">
+                                    Support me on Patreon!
+                                </a>
+                            </p>
+                            <p class="dark:text-white">
+                                I appreciate every penny you kindly give.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="dist/main.js"></script>
 </body>
 </html>

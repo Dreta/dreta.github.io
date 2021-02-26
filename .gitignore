@@ -116,12 +116,3 @@ out
 
 .idea/
 *.iml
-
-index.js
-package.json
-postcss.config.js
-tailwind.config.js
-webpack.config.js
-yarn.lock
-assets/styles.pcss
-assets/images/*.png
