@@ -36,7 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
             if (i >= textSwitch.length) {
                 if (!intervalSet) {
                     intervalSet = true;
+                    csi.focus();
                     setTimeout(() => {
+                        discord.focus();
                         let interval2 = setInterval(() => {
                             j--;
                             if (j < 0) {
