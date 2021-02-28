@@ -1,24 +1,21 @@
 // Copyright (c) 2021 Dreta, all rights reserved.
 
 module.exports = {
-    darkMode: "class",
     purge: [
         "./*.html",
         "./src/*.js"
     ],
     theme: {
         fontFamily: {
-            default: ["\"Exo 2\"", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
+            default: ["Lato", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
         },
         extend: {
             colors: {
-                about: "#52d5f9",
-                rants: "#79d5f5",
-                contact: "#02e5e5",
-                "dark-about": "#057999",
-                "dark-rants": "#0a6180",
-                "dark-contact": "#02b7b7",
-                "light-black": "#181a1b"
+                body: "#eee6be",
+                twitter: "#1ca0f1",
+                orangered: "#ff5a1e",
+                discord: "#6b85d8",
+                email: "#1e88e5"
             }
         }
     }
