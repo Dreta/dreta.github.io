@@ -5,15 +5,23 @@ const discord = document.getElementById("discord");
 
 const textSwitch = [
     "a developer.",
-    "sbflanwkdf",
-    "xguclaivp",
-    "nhtloapn",
-    "poigoqm",
-    "mphtsm",
-    "cofjle",
-    "copfpe",
-    "copiba",
-    "copied!"
+    "a developet",
+    "a developmf",
+    "a develoajx",
+    "a develloa",
+    "a devexio",
+    "a devnkwo",
+    "a deqitpa",
+    "a dhtkdkd",
+    "a fhialq",
+    "aosdgosd",
+    "sbflanwn",
+    "cpasdoop",
+    "coxapgol",
+    "copmqja",
+    "copihfa",
+    "copienf",
+    "copied!",
 ];
 
 let intervalPlaying = false;
