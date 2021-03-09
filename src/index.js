@@ -4,7 +4,7 @@ const csi = document.getElementById("csi");
 const discord = document.getElementById("discord");
 
 const textSwitch = [
-    "a developer.",
+    "a developer",
     "a developet",
     "a developmf",
     "a develoajx",
@@ -21,13 +21,16 @@ const textSwitch = [
     "copmqja",
     "copihfa",
     "copienf",
-    "copied!",
+    "copied!"
 ];
 
 let intervalPlaying = false;
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("email").href = "mailto:hello@dreta.dev";
+    document.getElementById("email").href = "mai" + "lto:hel" + "lo@dr" + "eta.dev";
+    if (navigator.language.includes("zh")) {
+        document.getElementById("regional-content").innerText = "and a \u4e2d\u4e8c\u75c5\u665a\u671f.";
+    }
 
     discord.onclick = async () => {
         await navigator.clipboard.writeText("Dre" + "t" + "a#6" + "65" + "5");
@@ -55,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 return;
                             }
                             csi.innerText = textSwitch[j];
-                        }, 50)
+                        }, 50);
                     }, 1000);
                 }
                 clearInterval(interval);
