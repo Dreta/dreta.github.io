@@ -7,11 +7,13 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            default: ["Lato", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
+            default: ["Gilroy", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
         },
         extend: {
             colors: {
-                body: "#eee6be",
+                body: "#000000",
+                primary: "#ffdd00",
+                secondary: "#ffac24",
                 twitter: "#1ca0f1",
                 orangered: "#ff5a1e",
                 discord: "#6b85d8",
