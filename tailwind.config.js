@@ -12,8 +12,8 @@ module.exports = {
         extend: {
             colors: {
                 body: "#000000",
-                primary: "#ffdd00",
-                secondary: "#ffac24",
+                primary: "#323a72",
+                secondary: "#131e7e",
                 twitter: "#1ca0f1",
                 orangered: "#ff5a1e",
                 discord: "#6b85d8",
