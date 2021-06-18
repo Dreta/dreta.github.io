@@ -17,7 +17,8 @@ module.exports = {
                 twitter: "#1ca0f1",
                 orangered: "#ff5a1e",
                 discord: "#5865f2",
-                email: "#1e88e5"
+                email: "#00d5ff",
+                "email-2": "#1e88e5"
             }
         }
     }

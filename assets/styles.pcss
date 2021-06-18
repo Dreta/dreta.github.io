@@ -8,21 +8,10 @@
     @apply font-default;
 }
 
-.bg-grid {
-    background: linear-gradient(-90deg, rgba(0, 0, 0, .06) 1px, transparent 1px),
-    linear-gradient(rgba(0, 0, 0, .06) 1px, transparent 1px),
-    linear-gradient(-90deg, rgba(0, 0, 0, .06) 1px, transparent 1px),
-    linear-gradient(rgba(0, 0, 0, .06) 1px, transparent 1px),
-    linear-gradient(transparent 3px, transparent 3px, transparent 78px, transparent 78px),
-    linear-gradient(-90deg, transparent 1px, transparent 1px),
-    linear-gradient(-90deg, transparent 3px, transparent 3px, transparent 78px, transparent 78px),
-    linear-gradient(transparent 1px, transparent 1px), transparent;
-    background-size: 32px 32px,
-    32px 32px,
-    32px 32px,
-    32px 32px,
-    32px 32px,
-    32px 32px,
-    32px 32px,
-    32px 32px;
+.skew-transform {
+    transform: skew(-18deg);
+}
+
+.skew-transform:hover {
+    transform: skew(-18deg) translateY(-0.25rem);
 }
