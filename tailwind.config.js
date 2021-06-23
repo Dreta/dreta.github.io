@@ -7,7 +7,8 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            default: ["Gilroy", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
+            default: ["Gilroy", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+            cn: ["Microsoft YaHei", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"]
         },
         extend: {
             colors: {

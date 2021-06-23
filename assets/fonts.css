@@ -13,3 +13,11 @@
     src: url(typefaces/Gilroy-ExtraBold.otf) format("opentype");
     font-display: fallback;
 }
+
+@font-face {
+    font-family: "Microsoft YaHei";
+    font-style: normal;
+    font-weight: 500;
+    src: url("typefaces/Microsoft YaHei.ttf") format("truetype");
+    font-display: fallback;
+}
